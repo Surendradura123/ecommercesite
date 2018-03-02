@@ -68,7 +68,7 @@ include("includes/db.php");
                 <td>$products</td>
                 <td>$date</td>
                 <td>$status</td>
-               <td><a href='confirm.php'>Confirm if Paid</a></td>
+               <td><a href='confirm.php?order_id=$order_id' target='_blank'>Confirm if Paid</a></td>
                         
             </tr>
         
